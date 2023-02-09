@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Популярные товары</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header></header>
+    <main>
+        <div class="main-head">
+            <h1>Популярные товары</h1>
+            <div class="text-dotted">
+                <p class="main-head__text">Недавно купили</p>
+            </div>
+            <div class="text-dotted">
+                <p class="main-head__text">Вас может заинтересовать</p>
+            </div>
+        </div>
+        <div class="products">
+            <ul class="product">
+                <li class="product-wrapper">
+                    <div class="logo-over logo-over__hidden">
+                        <div class="logo-over-right">
+                            <img class="new-icon visually-hidden" src="image/new.svg">
+                            <img class="hit-icon visually-hidden" src="image/hit.svg">
+                        </div>
+                        <div class="logo-over-left">
+                            <a href="#"><img class="favorite-icon" src="image/favorite.svg"></a>
+                            <a href="#"><img class="compare-icon" src="image/compare.svg"></a>
+                        </div>
+                    </div>
+                    <img src="image/no-photo.svg" class="product-img" alt="Нет фото">
+                    <div class="wrapper-scroll">
+                        <div class="line line-use"></div>
+                        <div class="line"></div>
+                        <div class="line"></div>
+                        <div class="line"></div>
+                        <div class="line"></div>
+                    </div>
+                    <p class="product-name">Тарелка керамическая ручной работы <br>&#8960; 12</p>
+                    <p class="product-price">600 ₽&nbsp;&nbsp;<s class="product-price__sale">810 ₽</s></p>
+                    <div class="total-price">
+                        <div class="input-group quantity_goods">
+                            <label class="minus" for="button_minus">
+                                <span class="fake-input-minus"></span>
+                                <input class="button_minus visually-hidden" type="button" value="-"
+                                    id="button_minus"></label>
+                            <input class="button_number" type="number" step="1" min="1" max="20" id="num_count"
+                                name="quantity" value="1" title="Qty">
+                            <label class="plus" for="button_plus">
+                                <span class="fake-input-plus"></span>
+                                <input class="button_plus visually-hidden" type="button" value="+" id="button_plus">
+                            </label>
+                        </div>
+                        <div class="add-busket">
+                            <button type="button" name="add-busket">
+                                <div class="button-busket">
+                                    <img src="image/truck.svg">
+                                    <p class="button-text">В корзину</p>
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                </li>
+                <li class="product-wrapper">
+                    <div class="logo-over logo-over__hidden">
+                        <div class="logo-over-right">
+                            <img class="new-icon visually-hidden" src="image/new.svg">
+                            <img class="hit-icon visually-hidden" src="image/hit.svg">
+                        </div>
+                        <div class="logo-over-left">
+                            <a href="#"><img class="favorite-icon" src="image/favorite.svg"></a>
+                            <a href="#"><img class="compare-icon" src="image/compare.svg"></a>
+                        </div>
+                    </div>
+                    <img src="image/flower.svg" class="product-img" alt="Цветок">
+                    <div class="wrapper-scroll">
+                        <div class="line line-use"></div>
+                        <div class="line"></div>
+                        <div class="line"></div>
+                        <div class="line"></div>
+                        <div class="line"></div>
+                    </div>
+                    <p class="product-name">Кашпо для цветов керамическое <br><span
+                            class="capital-letters">Симплгрей</span></p>
+                    <p class="product-price">450 ₽</p>
+                    <div class="total-price">
+                        <div class="input-group quantity_goods">
+                            <label class="minus" for="button_minus">
+                                <span class="fake-input-minus"></span>
+                                <input class="button_minus visually-hidden" type="button" value="-"
+                                    id="button_minus"></label>
+                            <input class="button_number" type="number" step="1" min="1" max="20" id="num_count"
+                                name="quantity" value="1" title="Qty">
+                            <label class="plus" for="button_plus">
+                                <span class="fake-input-plus"></span>
+                                <input class="button_plus visually-hidden" type="button" value="+" id="button_plus">
+                            </label>
+                        </div>
+                        <div class="add-busket">
+                            <button type="button" name="add-busket">
+                                <div class="button-busket">
+                                    <img src="image/truck.svg">
+                                    <p class="button-text">В корзину</p>
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                </li>
+                <li class="product-wrapper">
+                    <div class="logo-over">
+                        <div class="logo-over-right">
+                            <img class="new-icon visually-hidden" src="image/new.svg">
+                            <img class="hit-icon" src="image/hit.svg">
+                        </div>
+                        <div class="logo-over-left">
+                            <a href="#"><img class="favorite-icon" src="image/favorite.svg"></a>
+                            <a href="#"><img class="compare-icon" src="image/compare.svg"></a>
+                        </div>
+                    </div>
+                    <img src="image/watch.svg " class="product-img" alt="Часы">
+                    <div class="wrapper-scroll">
+                        <div class="line line-use"></div>
+                        <div class="line"></div>
+                        <div class="line"></div>
+                        <div class="line"></div>
+                        <div class="line"></div>
+                    </div>
+                    <p class="product-name">Умные часы <span class="capital-letters">smartwatch xm 109</span> черный</p>
+                    <p class="product-price product-price__gap">12 999 ₽</p>
+                    <div class="total-price">
+                        <div class="input-group quantity_goods">
+                            <label class="minus" for="button_minus">
+                                <span class="fake-input-minus"></span>
+                                <input class="button_minus visually-hidden" type="button" value="-"
+                                    id="button_minus"></label>
+                            <input class="button_number" type="number" step="1" min="1" max="20" id="num_count"
+                                name="quantity" value="1" title="Qty">
+                            <label class="plus" for="button_plus">
+                                <span class="fake-input-plus"></span>
+                                <input class="button_plus visually-hidden" type="button" value="+" id="button_plus">
+                            </label>
+                        </div>
+                        <div class="add-busket">
+                            <button type="button" name="add-busket">
+                                <div class="button-busket">
+                                    <img src="image/truck.svg">
+                                    <p class="button-text">В корзину</p>
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                </li>
+                <li class="product-wrapper">
+                    <div class="logo-over">
+                        <div class="logo-over-right">
+                            <img class="new-icon" src="image/new.svg">
+                            <img class="hit-icon visually-hidden" src="image/hit.svg">
+                        </div>
+                        <div class="logo-over-left">
+                            <a href="#"><img class="favorite-icon" src="image/favorite.svg"></a>
+                            <a href="#"><img class="compare-icon" src="image/compare.svg"></a>
+                        </div>
+                    </div>
+                    <img src="image/ring.svg" class="product-img" alt="Кольцо">
+                    <div class="wrapper-scroll">
+                        <div class="line line-use"></div>
+                        <div class="line"></div>
+                        <div class="line"></div>
+                        <div class="line"></div>
+                        <div class="line"></div>
+                    </div>
+                    <p class="product-name">Золотое кольцо <span class="capital-letters">малика</span> с аметистом и
+                        <br>фианитами
+                    </p>
+                    <p class="product-price">15 700 ₽</p>
+                    <div class="total-price">
+                        <div class="input-group quantity_goods">
+                            <label class="minus" for="button_minus">
+                                <span class="fake-input-minus"></span>
+                                <input class="button_minus visually-hidden" type="button" value="-"
+                                    id="button_minus"></label>
+                            <input class="button_number" type="number" step="1" min="1" max="20" id="num_count"
+                                name="quantity" value="1" title="Qty">
+                            <label class="plus" for="button_plus">
+                                <span class="fake-input-plus"></span>
+                                <input class="button_plus visually-hidden" type="button" value="+" id="button_plus">
+                            </label>
+                        </div>
+                        <div class="add-busket">
+                            <button type="button" name="add-busket">
+                                <div class="button-busket">
+                                    <img src="image/truck.svg">
+                                    <p class="button-text">В корзину</p>
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <script src="script.js"></script>
+    </main>
+    <footer></footer>
+</body>
+
+</html>
